@@ -41,10 +41,10 @@ ul {
     position: relative;
 }
 
-.submenu #carrito{
+.submenu #cart{
     display: none;
 }
-.submenu:hover #carrito{
+.submenu:hover #cart{
     display: block;
     position: absolute;
     right:0;
@@ -133,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
 #lista-cursos .row {
     margin-bottom:20px;
 }
-.agregar-carrito {
+.add-cart {
     margin:10px 0;
 }
 
@@ -155,12 +155,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
 .card h4 {
     margin-bottom: 5px;
 }
-.info-card .precio {
+.info-card .price {
     text-decoration: line-through;
     font-size: 18px;
     margin-top: 10px;
 }
-.info-card .precio span {
+.info-card .price span {
     font-weight: 700;
     font-size: 22px;
 }
