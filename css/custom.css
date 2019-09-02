@@ -18,7 +18,7 @@ header {
         text-align: left;
     }
 }
-.borrar-curso {
+.delete-course {
     background-color: red;
     border-radius: 50%;
     padding: 5px 10px;
@@ -34,7 +34,7 @@ ul {
     background-image:url(../img/hero.jpg);
     height: 350px;
 }
-#encabezado {
+#header {
     margin: 30px 0;
 }
 .submenu {
@@ -63,19 +63,19 @@ ul {
     border-radius: 10px;
     color: white;
 }
-.contenido-hero {
+.hero-content {
     margin-top: 80px;
     color: white;
 }
-.contenido-hero form {
+.hero-content form {
     position: relative;
     margin-bottom: 0;
 }
-.contenido-hero form #buscador {
+.hero-content form #buscador {
     height: 50px;
     margin-bottom: 0;
 }
-.contenido-hero form .submit-buscador {
+.hero-content form .search-submit {
     position: absolute;
     right:0;
     top:0;
@@ -130,7 +130,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     background-image: url(../img/icono3.png);
 }
 
-#lista-cursos .row {
+#courses-list .row {
     margin-bottom:20px;
 }
 .add-cart {
